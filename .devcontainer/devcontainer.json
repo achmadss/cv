@@ -1,0 +1,25 @@
+{
+    "name": "CV",
+    "dockerFile": "Dockerfile",
+    "forwardPorts": [
+        4000
+    ],
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash",
+                "editor.tabSize": 4
+            },
+            "extensions": [
+                "ginfuru.ginfuru-vscode-jekyll-syntax",
+                "sissel.shopify-liquid",
+                "davidanson.vscode-markdownlint",
+                "streetsidesoftware.code-spell-checker",
+                "timonwong.shellcheck",
+                "mkhl.shfmt",
+                "Shopify.theme-check-vscode"
+            ]
+        }
+    },
+    "postCreateCommand": "bundle install"
+}
