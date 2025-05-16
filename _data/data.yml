@@ -1,108 +1,70 @@
-name: John Doe
+name: Achmad Setyabudi Susilo
 support_dark_mode: true
-fork: true
+fork: false
 
 # Sidebar
 contact:
-  email: info@johndoe.com
-  github: johndoe
-  linkedin: johndoe
-  phone: 
+  email: contact@achmad.dev
+  github: achmadss
+  linkedin: achmadss
+  phone: "081282052145"
   gitlab: 
   twitter: 
 
 languages:
   - idiom: English
-  - idiom: Russian
-  - idiom: French
+  - idiom: Indonesian
 
 education:
-  - degree: MSc in Informatics
-    time: 2014-2016
-    university: Ionian University
-
-  - degree: BSc in Computer Science
-    time: 2010-2014
-    university: Ionian University
+  - degree: S.Kom in Informatics Engineering
+    time: 2016-2021
+    university: Brawijaya University
 
 skills:
-  - category: Backend
-    skill: 
-      - Go
-      - Rust
   - category: Frontend
     skill:
+      - Android
       - React
-      - Typescript
+  - category: Backend
+    skill: 
+      - Kotlin
+      - Java
+      - Javascript
   - category: DevOps
     skill:
       - Docker
-      - Kubernetes 
 
 # Profile
 profile: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-  fugiat nulla pariatur.
+  I am a versatile and detail-oriented software developer specializing in Android development with Kotlin and modern frameworks such as Jetpack Compose. 
+  I have extensive experience building robust, user-friendly mobile applications, and a solid grasp of architectural best practices using tools like Koin, Dagger Hilt, Retrofit, OkHttp, and Coroutines.
+  In addition to app development, I have a growing interest in DevOps and infrastructure, developed through hands-on experience self-hosting services and managing my own development environments. 
+  This has given me practical insights into containerization, networking, and deployment workflows.
 
 # Experience
 experience:
+  - role: Android Developer
+    time: Jan 2024 – Present
+    company: Aleph-Labs
+    details: |
+      Contributed to the development of the Android application for *U by Prodia*, a healthcare platform offering lab tests, vaccinations, health plans, and medication orders. 
+      Responsible for implementing new features and enhancing overall app performance and user experience.
+    technologies_used: |
+      Kotlin, Jetpack Compose, Hilt, Retrofit
+
   - role: Software Engineer
-    time: 2020-Present
-    company: Google
+    time: Jan 2021 – Nov 2023
+    company: Cexup
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Go, Angular, Typescript, C++
-  
-  - role: Researcher
-    time: 2016-2020
-    company: Microsoft
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Python, Tensorflow, Keras, Matlab
+      Designed and maintained a Tele-Consultation Android application supporting real-time video calls and integrated electronic medical records. 
+      Worked across the full stack to ensure seamless communication between frontend and backend services.
+    technologies_used: |
+      Kotlin, Jetpack Compose, Hilt, Java, Spring Boot, Docker
 
-publications:
-  - title: Random title of paper. An interesting one.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference, 2016
-
-  - title: Second title of paper. An interesting one too.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference again, 2018
-
+# Projects
 projects:
-  - title: Cool Project 
-    link: #
+  - title: Simple Mock API
+    link: https://mock.achmad.dev
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
-
-  - title: Cool Project 
-    link: #
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
-
-# Volunteering
-volunteering:
-  - time: 2020-Present
-    role: PR Manager
-    company: Some random organization
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+      A lightweight, self-hosted mock API service for testing and prototyping RESTful endpoints. 
+      Designed to support quick development iterations with minimal setup.
