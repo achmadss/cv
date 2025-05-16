@@ -1,11 +1,16 @@
 {% assign skills = site.data.data.skills %}
 {% if skills %}
 <section class="skills">
+    <div class="title">skills</div>
     {% for sks in skills %}
-        <div class="title">{{sks.category}} skills</div>
-        {% for sk in sks.skill%}
-            <div class="skill">{{sk}}</div>
-        {% endfor %}
+        <div class="skill">
+            {{sks.category}} - 
+            <span class="details">
+                {% for sk in sks.skill%}
+                    {{sk}}{% unless forloop.last %}, {% endunless %}
+                {% endfor %}
+            </span>
+        </div>
     {% endfor %}
 </section>
 {% endif %}

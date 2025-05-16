@@ -2,12 +2,15 @@ name: Achmad Setyabudi Susilo
 support_dark_mode: true
 fork: false
 
+# Avatar
+avatar: "assets/img/avatar.jpg"
+
 # Sidebar
 contact:
   email: contact@achmad.dev
   github: achmadss
   linkedin: achmadss
-  phone: "081282052145"
+  phone: "+6281282052145"
   gitlab: 
   twitter: 
 
@@ -16,27 +19,36 @@ languages:
   - idiom: Indonesian
 
 education:
-  - degree: S.Kom in Informatics Engineering
-    time: 2016-2021
+  - degree: S.Kom Informatics Engineering
+    time: 2016 - 2021
     university: Brawijaya University
 
 skills:
-  - category: Frontend
+  - category: Programming Languages
     skill:
-      - Android
-      - React
-  - category: Backend
-    skill: 
       - Kotlin
       - Java
       - Javascript
+      - Typescript
+  - category: Frontend
+    skill:
+      - Android
+      - Jetpack Compose
+      - Hilt
+      - Retrofit
+      - React
+  - category: Backend
+    skill: 
+      - Ktor
+      - Spring Boot
+      - PostgreSQL
   - category: DevOps
     skill:
       - Docker
 
 # Profile
 profile: |
-  I am a versatile and detail-oriented software developer specializing in Android development with Kotlin and modern frameworks such as Jetpack Compose. 
+  I am a software developer specializing in Android development with Kotlin and modern frameworks such as Jetpack Compose. 
   I have extensive experience building robust, user-friendly mobile applications, and a solid grasp of architectural best practices using tools like Koin, Dagger Hilt, Retrofit, OkHttp, and Coroutines.
   In addition to app development, I have a growing interest in DevOps and infrastructure, developed through hands-on experience self-hosting services and managing my own development environments. 
   This has given me practical insights into containerization, networking, and deployment workflows.
@@ -47,7 +59,7 @@ experience:
     time: Jan 2024 – Present
     company: Aleph-Labs
     details: |
-      Contributed to the development of the Android application for *U by Prodia*, a healthcare platform offering lab tests, vaccinations, health plans, and medication orders. 
+      Contributed to the development of the Android application for <b>U by Prodia</b>, a healthcare platform offering lab tests, vaccinations, health plans, and medication orders. 
       Responsible for implementing new features and enhancing overall app performance and user experience.
     technologies_used: |
       Kotlin, Jetpack Compose, Hilt, Retrofit
@@ -56,7 +68,7 @@ experience:
     time: Jan 2021 – Nov 2023
     company: Cexup
     details: |
-      Designed and maintained a Tele-Consultation Android application supporting real-time video calls and integrated electronic medical records. 
+      Contributed to the development of the Android application for <b>Cexup</b>, a Tele-Consultation platform supporting real-time video calls and integrated electronic medical records. 
       Worked across the full stack to ensure seamless communication between frontend and backend services.
     technologies_used: |
       Kotlin, Jetpack Compose, Hilt, Java, Spring Boot, Docker

@@ -1,4 +1,4 @@
-title:
+title: achmad.dev
 description:
 url: https://achmad.dev/about
 baseurl: '/about'
@@ -7,9 +7,6 @@ theme_skin: blue
 sass:
   sass_dir: _sass
   style: compressed
-
-plugins:
-    - jekyll-minifier
 
 exclude:
   - docker-compose.yml
